@@ -1,0 +1,31 @@
+body {
+	color: #aaaaaa;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	text-align:center;
+	background-color: white;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#twoView 
+{
+	cursor: crosshair;
+}
+
+#button 
+{				
+	opacity: 0.75;
+	color: black;	
+}
+
+#button:hover 
+{
+	cursor: pointer;
+	opacity: 1;
+}
+
+#title,#help
+{				
+	opacity: 0.75;
+	color: black;	
+}
