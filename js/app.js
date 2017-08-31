@@ -97,7 +97,7 @@ function positionViews()
 	uiTitleView.style.left = ''+padding+'px';		
 	uiTitleView.style.top = ''+padding+'px';				
 	uiTitleView.style.backgroundColor = 'rgba(255, 255, 255, 0.75)';	
-	uiTitleView.innerHTML = '<p>SPINNER: A TOP MAKER</p>';  	
+	uiTitleView.innerHTML = '<p>Design your own unique Spinner</p>';  	
 
 	uiHelpView.id = 'help';
 	uiHelpView.style.width = ''+titleWidth+'px';
