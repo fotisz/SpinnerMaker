@@ -97,7 +97,7 @@ function positionViews()
 	uiTitleView.style.left = ''+padding+'px';		
 	uiTitleView.style.top = ''+padding+'px';				
 	uiTitleView.style.backgroundColor = 'rgba(255, 255, 255, 0.75)';	
-	uiTitleView.innerHTML = '<p>Design your own unique Spinner</p>';  	
+	uiTitleView.innerHTML = '<p>Design a Spinner</p>';  	
 
 	uiHelpView.id = 'help';
 	uiHelpView.style.width = ''+titleWidth+'px';
@@ -109,7 +109,7 @@ function positionViews()
 	uiHelpView.style.top = ''+(titleHeight+padding*2.0)+'px';					
 	uiHelpView.style.textAlign = 'left';			
 	uiHelpView.style.paddingLeft = ''+len*.5+'px'; 		
-	uiHelpView.innerHTML = '<p>CLICK TO ADD POINT</p><p>SHIFT CLICK DELETE POINT</p><p>CLICK + DRAG + SHIFT = SNAP</p><p>+ TO INCREASE PT WEIGHT</p><p>- TO DECREASE PT WEIGHT</p><p>SPACE TO RESET</p>';
+	uiHelpView.innerHTML = '<p>CLICK TO ADD POINT | ΚΛΙΚ ΓΙΑ ΠΡΟΣΘΗΚΗ ΣΗΜΕΙΟΥ</p><p>SHIFT+CLICK ΤΟ DELETE POINT | SHIFT+CLICK ΓΙΑ ΔΙΑΓΡΑΦΗ ΣΗΜΕΙΟΥ </p><p>CLICK+DRAG+SHIFT = SNAP</p><p>+ TO INCREASE PT WEIGHT</p><p>- TO DECREASE PT WEIGHT</p><p>SPACE TO RESET</p>';
 }
 
 function setupTwoView()
