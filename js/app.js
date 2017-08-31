@@ -109,7 +109,7 @@ function positionViews()
 	uiHelpView.style.top = ''+(titleHeight+padding*2.0)+'px';					
 	uiHelpView.style.textAlign = 'left';			
 	uiHelpView.style.paddingLeft = ''+len*.5+'px'; 		
-	uiHelpView.innerHTML = '<p>CLICK TO ADD POINT | ΚΛΙΚ ΓΙΑ ΠΡΟΣΘΗΚΗ ΣΗΜΕΙΟΥ</p><p>SHIFT+CLICK ΤΟ DELETE POINT | SHIFT+CLICK ΓΙΑ ΔΙΑΓΡΑΦΗ ΣΗΜΕΙΟΥ </p><p>CLICK+DRAG+SHIFT = SNAP</p><p>+ TO INCREASE PT WEIGHT</p><p>- TO DECREASE PT WEIGHT</p><p>SPACE TO RESET</p>';
+	uiHelpView.innerHTML = '<p>CLICK TO ADD POINT</p><p>SHIFT+CLICK ΤΟ DELETE POINT</p><p>CLICK+DRAG+SHIFT TO SNAP</p><p>+ TO INCREASE PT WEIGHT</p><p>- TO DECREASE PT WEIGHT</p><p>SPACE[] TO RESET</p>';
 }
 
 function setupTwoView()
